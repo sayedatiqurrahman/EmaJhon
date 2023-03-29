@@ -1,0 +1,16 @@
+.banner {
+    display: flex;
+    gap: 200px;
+    padding: 0 8rem;
+    height: 95vh;
+    place-items: center;
+}
+
+.off {
+    color: #FF9900;
+}
+
+button {
+    background-color: #FF9900 !important;
+    color: #000;
+}
