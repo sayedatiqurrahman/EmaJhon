@@ -18,7 +18,7 @@ const Merkat = () => {
     const handleCart = (props) => {
         const newProduct = [...products, props]
         setProducts(newProduct)
-        carts.map(cart => addToDb(cart))
+        carts.map(cart => addToDb(cart.id))
 
     }
     return (
