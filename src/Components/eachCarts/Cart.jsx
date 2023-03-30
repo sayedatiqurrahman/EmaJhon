@@ -2,11 +2,14 @@ import './Cart.css'
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee, faShoppingCart } from '@fortawesome/free-solid-svg-icons'
+import { getShoppingCart } from '../../utilities/fakedb';
 
 
 const Cart = (props) => {
     const { img, id, name, seller, price, stock, rating } = props.cart;
     const handleCart = props.handleCart;
+
+
     return (
         <div className='cart'>
             <img src={img} alt="Image not availble" />
